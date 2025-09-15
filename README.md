@@ -18,11 +18,13 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Frameworks & Ferramentas
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Django REST](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -30,8 +32,8 @@
 
 ## 💼 Áreas de Interesse
 
-- 🌐 **Web Development** (Backend focado)
-- 🔗 **APIs RESTful** com Django
+- 🌐 **Web Development** (Full Stack)
+- 🔗 **APIs RESTful** com Django e FastAPI
 - 🤖 **Inteligência Artificial**
 - 💻 **Desenvolvimento de Software**
 - 🚀 **Novas tecnologias e frameworks**
@@ -43,9 +45,10 @@ API RESTful completa para gerenciamento de finanças pessoais com Django, Postgr
 
 **Tecnologias:** Python, Django, PostgreSQL, Docker, JWT
 
-### 🚌 Sistema de Transporte Escolar *(Em desenvolvimento)*
-Software completo para gerenciamento de transporte escolar com controle de rotas, alunos e veículos.
+### 🚌 Mobi Escola - Sistema de Transporte Escolar *(Em desenvolvimento)*
+Interface moderna para gestão de transporte escolar com monitoramento em tempo real, dashboard de rotas, gestão de motoristas e passageiros.
 
+**Tecnologias:** Next.js 14, TypeScript, Tailwind CSS, Django REST Framework, PostgreSQL  
 **Status:** 🔄 Em desenvolvimento ativo
 
 ## 📊 GitHub Stats
