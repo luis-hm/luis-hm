@@ -7,7 +7,7 @@
 ## 🚀 Sobre mim
 
 - 💻 **Desenvolvedor Backend Jr** com experiência em **Django** e **Python**
-- 🎓 **3º período de Engenharia de Software**
+- 🎓 **4º período de Engenharia de Software**
 - 📍 **Russas, CE - Brasil**
 - 🔧 Também trabalho com **frontend** quando necessário
 - 🎯 **Transformando ideias em código funcional e elegante**
@@ -16,7 +16,6 @@
 
 ### Linguagens
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -51,20 +50,9 @@ Interface moderna para gestão de transporte escolar com monitoramento em tempo 
 **Tecnologias:** Next.js 14, TypeScript, Tailwind CSS, Django REST Framework, PostgreSQL  
 **Status:** 🔄 Em desenvolvimento ativo
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=luis-hm&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luis-hm&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=luis-hm&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
 ## 🎓 Formação
 
-- 📚 **Engenharia de Software** - 3º período *(em andamento)*
+- 📚 **Engenharia de Software** - 4º período *(em andamento)*
 - 💻 **Desenvolvimento Backend** - Autodidata e cursos
 - 🌱 **Sempre aprendendo** novas tecnologias
 
