@@ -7,7 +7,7 @@
 ## 🚀 Sobre mim
 
 - 💻 **Desenvolvedor Backend Jr** com experiência em **Django** e **Python**
-- 🎓 **4º período de Engenharia de Software**
+- 🎓 **5º período de Engenharia de Software**
 - 📍 **Russas, CE - Brasil**
 - 🔧 Também trabalho com **frontend** quando necessário
 - 🎯 **Transformando ideias em código funcional e elegante**
