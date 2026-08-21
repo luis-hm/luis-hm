@@ -57,7 +57,7 @@ Interface moderna para gestão de transporte escolar com monitoramento em tempo 
 
 ## 🎓 Formação
 
-- 📚 **Engenharia de Software** - 4º período *(em andamento)*
+- 📚 **Engenharia de Software** - 5º período *(em andamento)*
 - 💻 **Desenvolvimento Backend** - Autodidata e cursos
 - 🌱 **Sempre aprendendo** novas tecnologias
 
