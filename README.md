@@ -49,6 +49,12 @@ Plataforma para personal trainers acompanharem alunos: criação de treinos e te
 
 **Tecnologias:** TypeScript, Next.js, Python, Django REST Framework, PostgreSQL
 
+### 🚌 Mobi Escola - Sistema de Transporte Escolar *(Em desenvolvimento)*
+Interface moderna para gestão de transporte escolar com monitoramento em tempo real, dashboard de rotas, gestão de motoristas e passageiros.
+
+**Tecnologias:** Next.js 14, TypeScript, Tailwind CSS, Django REST Framework, PostgreSQL  
+**Status:** 🔄 Em desenvolvimento ativo
+
 ## 🎓 Formação
 
 - 📚 **Engenharia de Software** - 4º período *(em andamento)*
