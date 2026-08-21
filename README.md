@@ -39,16 +39,15 @@
 
 ## 🎯 Projetos em Destaque
 
-### 💰 CashAPI - API de Controle Financeiro
-API RESTful completa para gerenciamento de finanças pessoais com Django, PostgreSQL e autenticação JWT.
+### 💰 [CashAPI](https://github.com/luis-hm/CashApi) - API de Controle Financeiro
+API RESTful para controle de finanças pessoais, com gestão de usuários, categorias, transações (receitas/despesas) e relatórios financeiros detalhados.
 
-**Tecnologias:** Python, Django, PostgreSQL, Docker, JWT
+**Tecnologias:** Python, Django REST Framework, PostgreSQL, Docker, JWT
 
-### 🚌 Mobi Escola - Sistema de Transporte Escolar *(Em desenvolvimento)*
-Interface moderna para gestão de transporte escolar com monitoramento em tempo real, dashboard de rotas, gestão de motoristas e passageiros.
+### 🏋️ FitSync - Plataforma para Personal Trainers
+Plataforma para personal trainers acompanharem alunos: criação de treinos e templates, registro de avaliações físicas e visualização da evolução corporal dos alunos. Dividido em frontend (FitSync) e API (FitSync-api).
 
-**Tecnologias:** Next.js 14, TypeScript, Tailwind CSS, Django REST Framework, PostgreSQL  
-**Status:** 🔄 Em desenvolvimento ativo
+**Tecnologias:** TypeScript, Next.js, Python, Django REST Framework, PostgreSQL
 
 ## 🎓 Formação
 
