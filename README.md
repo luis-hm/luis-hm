@@ -39,9 +39,6 @@
 
 ## 🎯 Projetos em Destaque
 
-### 💰 [CashAPI](https://github.com/luis-hm/CashApi) - API de Controle Financeiro
-API RESTful para controle de finanças pessoais, com gestão de usuários, categorias, transações (receitas/despesas) e relatórios financeiros detalhados.
-
 **Tecnologias:** Python, Django REST Framework, PostgreSQL, Docker, JWT
 
 ### 🏋️ FitSync - Plataforma para Personal Trainers
