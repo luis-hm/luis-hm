@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luis Felipe — full stack, Django e Next.js">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A101F"/>
+      <stop offset="1" stop-color="#15213C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F6F1E3" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F6F1E3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#EAF2FF"/>
+      <stop offset="1" stop-color="#EAF2FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .st{animation:tw 4s ease-in-out infinite}
+    @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+    .breathe{animation:br 7s ease-in-out infinite}
+    @keyframes br{0%,100%{opacity:.3}50%{opacity:.6}}
+    .shoot{animation:sh 9s linear infinite}
+    @keyframes sh{0%{transform:translate(0,0);opacity:0}4%{opacity:1}13%{transform:translate(-460px,190px);opacity:0}100%{transform:translate(-460px,190px);opacity:0}}
+    .fly{animation:fl 6s ease-in-out infinite}
+    @keyframes fl{0%,100%{transform:translate(0,0);opacity:.15}50%{transform:translate(12px,-16px);opacity:.9}}
+    .r1,.r2,.r3{animation:up .9s cubic-bezier(.2,.8,.2,1) both}
+    .r2{animation-delay:.18s}.r3{animation-delay:.36s}
+    @keyframes up{from{transform:translateY(16px);opacity:0}to{transform:translateY(0);opacity:1}}
+    .bar{transform-origin:78px 0;animation:gr 1s .5s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    text{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#sky)"/>
+
+    <circle class="st" cx="90" cy="46" r="1.6" fill="#E6EDF7"/>
+    <circle class="st" cx="180" cy="72" r="1.2" fill="#E6EDF7" style="animation-delay:1.1s"/>
+    <circle class="st" cx="300" cy="38" r="1.8" fill="#E6EDF7" style="animation-delay:2.2s"/>
+    <circle class="st" cx="420" cy="60" r="1.3" fill="#E6EDF7" style="animation-delay:.6s"/>
+    <circle class="st" cx="540" cy="34" r="1.5" fill="#E6EDF7" style="animation-delay:1.7s"/>
+    <circle class="st" cx="620" cy="84" r="1.2" fill="#E6EDF7" style="animation-delay:3s"/>
+    <circle class="st" cx="700" cy="48" r="1.7" fill="#E6EDF7" style="animation-delay:.3s"/>
+    <circle class="st" cx="790" cy="96" r="1.3" fill="#E6EDF7" style="animation-delay:2.6s"/>
+    <circle class="st" cx="860" cy="40" r="1.4" fill="#E6EDF7" style="animation-delay:1.4s"/>
+    <circle class="st" cx="940" cy="110" r="1.3" fill="#E6EDF7" style="animation-delay:3.4s"/>
+    <circle class="st" cx="1010" cy="60" r="1.6" fill="#E6EDF7" style="animation-delay:.9s"/>
+    <circle class="st" cx="730" cy="150" r="1.2" fill="#E6EDF7" style="animation-delay:2s"/>
+    <circle class="st" cx="560" cy="120" r="1.2" fill="#E6EDF7" style="animation-delay:4s"/>
+    <circle class="st" cx="1150" cy="140" r="1.4" fill="#E6EDF7" style="animation-delay:1.8s"/>
+    <circle class="st" cx="240" cy="110" r="1.1" fill="#E6EDF7" style="animation-delay:2.9s"/>
+
+    <circle class="breathe" cx="1086" cy="72" r="60" fill="url(#glow)"/>
+    <circle cx="1086" cy="72" r="24" fill="#F6F1E3"/>
+    <circle cx="1078" cy="64" r="5" fill="#E8E0CC" opacity=".5"/>
+    <circle cx="1094" cy="80" r="3.4" fill="#E8E0CC" opacity=".4"/>
+
+    <g class="shoot" transform="translate(1160,18)">
+      <line x1="0" y1="0" x2="96" y2="-40" stroke="url(#trail)" stroke-width="2.4" stroke-linecap="round"/>
+      <circle r="2.4" fill="#F2F7FF"/>
+    </g>
+
+    <path d="M0,252 C200,232 330,266 520,254 C720,242 870,272 1200,250 L1200,320 L0,320 Z" fill="#111C34"/>
+
+    <g fill="#0A1224">
+      <rect x="975" y="150" width="18" height="142" rx="9"/>
+      <rect x="943" y="206" width="38" height="13" rx="6.5"/>
+      <rect x="943" y="168" width="13" height="50" rx="6.5"/>
+      <rect x="990" y="186" width="40" height="13" rx="6.5"/>
+      <rect x="1017" y="138" width="13" height="60" rx="6.5"/>
+    </g>
+
+    <path d="M0,284 C240,268 430,298 660,286 C900,276 1070,298 1200,288 L1200,320 L0,320 Z" fill="#0B1426"/>
+
+    <circle class="fly" cx="150" cy="272" r="2" fill="#F5A524"/>
+    <circle class="fly" cx="250" cy="286" r="1.7" fill="#F5A524" style="animation-delay:2s"/>
+    <circle class="fly" cx="370" cy="264" r="1.8" fill="#F5A524" style="animation-delay:4s"/>
+    <circle class="fly" cx="640" cy="292" r="1.6" fill="#F5A524" style="animation-delay:1s"/>
+
+    <g>
+      <text class="r1" x="76" y="146" font-size="58" font-weight="700" letter-spacing="0.5" fill="#F3F7FF">Luis Felipe</text>
+      <rect class="bar" x="78" y="162" width="66" height="5" rx="2.5" fill="#F5A524"/>
+      <text class="r2" x="78" y="200" font-size="21" fill="#9CC0EE">full stack — django + next.js</text>
+      <text class="r3" x="78" y="230" font-size="15" letter-spacing="0.3" fill="#67789E">iexpert computing · engenharia de software — ufc</text>
+    </g>
+  </g>
+</svg>
