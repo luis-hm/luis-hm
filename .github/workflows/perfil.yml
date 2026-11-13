@@ -1,5 +1,5 @@
-# Gera as imagens do perfil (contribuições em 3D, cobrinha e cards dos repositórios)
-# e publica na branch "output", para o README sempre mostrar dados atualizados.
+# Gera a cobrinha das contribuições e publica na branch "output".
+# O banner é um SVG animado fixo em assets/banner.svg.
 name: Perfil
 
 on:
@@ -22,59 +22,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Contribuições em 3D
-        uses: yoshi389111/github-profile-3d-contrib@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
       - name: Cobrinha das contribuições
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg
-            dist/snake-dark.svg?palette=github-dark
-
-      - name: Card FitSync (escuro)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=FitSync&theme=github_dark&hide_border=true&description_lines_count=2
-          path: dist/pin-fitsync-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Card FitSync (claro)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=FitSync&hide_border=true&description_lines_count=2
-          path: dist/pin-fitsync-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Card FitSync-api (escuro)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=FitSync-api&theme=github_dark&hide_border=true&description_lines_count=2
-          path: dist/pin-fitsync-api-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Card FitSync-api (claro)
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=${{ github.repository_owner }}&repo=FitSync-api&hide_border=true&description_lines_count=2
-          path: dist/pin-fitsync-api-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Para mais um projeto, copie os dois passos acima trocando o repo=
-      # e o nome do arquivo, e adicione o card no README.
-
-      - name: Juntar as imagens
-        run: |
-          mkdir -p dist
-          cp profile-3d-contrib/profile-night-green.svg dist/contrib-dark.svg
-          cp profile-3d-contrib/profile-green-animate.svg dist/contrib-light.svg
-          cp profile-3d-contrib/*.svg dist/ # deixa todas as variações disponíveis
+            dist/snake-light.svg?color_snake=#1F6FEB
+            dist/snake-dark.svg?palette=github-dark&color_snake=#58A6FF
 
       - name: Publicar na branch output
         uses: crazy-max/ghaction-github-pages@v4
